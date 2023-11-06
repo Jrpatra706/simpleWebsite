@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    color: white;
+    position: fixed;
+    width: 100%;
+    background: rgb(15, 14, 14);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+.navbar .heading{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.navbar .options{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.options span{
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: all 0.2s;
+}
+.options span:hover{
+    cursor: pointer;
+    color: black;
+    background: white;
+}
+.body{
+    color: white;
+    height: 100vh;
+    background: url(mikkel-bech-xpa7Vfw-aP8-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.body .desc{
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.desc span{
+    font-size: 3rem;
+    font-weight: 600;
+   
+}
+
+.btns button{
+    margin-left: 8px;
+    font-size: 1.2rem;
+    padding: 0.6rem 1.8rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.lmbtn{
+    border:2px solid white;
+    color: white;
+    background: none;
+}
+.lmbtn:hover{
+    cursor: pointer;
+    color: black;
+    background: white;
+}
